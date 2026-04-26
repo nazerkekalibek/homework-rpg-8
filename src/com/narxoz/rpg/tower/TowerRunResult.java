@@ -1,8 +1,5 @@
 package com.narxoz.rpg.tower;
 
-/**
- * Holds the outcome of a completed tower climb.
- */
 public class TowerRunResult {
 
     private final int floorsCleared;
@@ -14,7 +11,7 @@ public class TowerRunResult {
         this.heroesSurviving = heroesSurviving;
         this.reachedTop = reachedTop;
     }
-
+ 
     public int getFloorsCleared()     { return floorsCleared; }
     public int getHeroesSurviving()   { return heroesSurviving; }
     public boolean isReachedTop()     { return reachedTop; }
